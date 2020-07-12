@@ -1,7 +1,7 @@
-const querys = require('../models/querys')
+const queries = require('../models/queries')
 
 const createTable = (database) => {
-    database.run(querys.userTable, err => {
+    database.run(queries.userTable, err => {
         if(err){
             return console.error(err.message)
         }else {

@@ -20,5 +20,4 @@ const db = new Database(dbName, err => {
     } 
 }) 
 
-
 module.exports = db  

@@ -1,4 +1,4 @@
-const querys = {
+const queries = {
     
     userTable : `CREATE TABLE IF NOT EXISTS User(
         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
@@ -9,4 +9,4 @@ const querys = {
     );`
 }
 
-module.exports = querys    
+module.exports = queries    
